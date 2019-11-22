@@ -3,7 +3,7 @@ const API = `${RAILS_SERVER}/api`;
 const SIGNING_SECRET = process.env.SLACK_SIGNING_SECRET;
 const TOKEN = process.env.SLACK_BOT_TOKEN;
 
-exports.RAILS_SERVER;
-exports.API;
-exports.SIGNING_SECRET;
-exports.TOKEN;
+exports.RAILS_SERVER = RAILS_SERVER;
+exports.API = API;
+exports.SIGNING_SECRET = SIGNING_SECRET;
+exports.TOKEN = TOKEN;
